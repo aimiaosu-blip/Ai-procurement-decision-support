@@ -1,0 +1,181 @@
+{
+  "ranking": [
+    {
+      "quote_id": "Q1",
+      "supplier": "Demo A",
+      "currency": "EUR",
+      "unit_price": 42,
+      "freight_per_unit": 3,
+      "duty_rate": 0.02,
+      "defect_rate": 0.01,
+      "late_rate": 0.05,
+      "failure_cost": 100,
+      "delay_cost": 40,
+      "synthetic": true,
+      "landed_cost": 45.84,
+      "risk_adjusted_cost": 48.84,
+      "score": 98.7
+    },
+    {
+      "quote_id": "Q3",
+      "supplier": "Demo C",
+      "currency": "EUR",
+      "unit_price": 48,
+      "freight_per_unit": 2,
+      "duty_rate": 0,
+      "defect_rate": 0.005,
+      "late_rate": 0.02,
+      "failure_cost": 100,
+      "delay_cost": 40,
+      "synthetic": true,
+      "landed_cost": 50,
+      "risk_adjusted_cost": 51.3,
+      "score": 97.052
+    },
+    {
+      "quote_id": "Q2",
+      "supplier": "Demo B",
+      "currency": "EUR",
+      "unit_price": 35,
+      "freight_per_unit": 5,
+      "duty_rate": 0.04,
+      "defect_rate": 0.08,
+      "late_rate": 0.2,
+      "failure_cost": 100,
+      "delay_cost": 40,
+      "synthetic": true,
+      "landed_cost": 41.4,
+      "risk_adjusted_cost": 57.4,
+      "score": 86.144
+    }
+  ],
+  "sensitivity": [
+    {
+      "price_shock": -0.1,
+      "cost_weight": 0.2,
+      "winner": "Demo C",
+      "score": 98.284,
+      "risk_adjusted_cost": 46.5
+    },
+    {
+      "price_shock": -0.1,
+      "cost_weight": 0.5,
+      "winner": "Demo A",
+      "score": 98.7,
+      "risk_adjusted_cost": 44.556
+    },
+    {
+      "price_shock": -0.1,
+      "cost_weight": 0.8,
+      "winner": "Demo A",
+      "score": 99.48,
+      "risk_adjusted_cost": 44.556
+    },
+    {
+      "price_shock": 0,
+      "cost_weight": 0.2,
+      "winner": "Demo C",
+      "score": 98.161,
+      "risk_adjusted_cost": 51.3
+    },
+    {
+      "price_shock": 0,
+      "cost_weight": 0.5,
+      "winner": "Demo A",
+      "score": 98.7,
+      "risk_adjusted_cost": 48.84
+    },
+    {
+      "price_shock": 0,
+      "cost_weight": 0.8,
+      "winner": "Demo A",
+      "score": 99.48,
+      "risk_adjusted_cost": 48.84
+    },
+    {
+      "price_shock": 0.1,
+      "cost_weight": 0.2,
+      "winner": "Demo C",
+      "score": 98.059,
+      "risk_adjusted_cost": 56.1
+    },
+    {
+      "price_shock": 0.1,
+      "cost_weight": 0.5,
+      "winner": "Demo A",
+      "score": 98.7,
+      "risk_adjusted_cost": 53.124
+    },
+    {
+      "price_shock": 0.1,
+      "cost_weight": 0.8,
+      "winner": "Demo A",
+      "score": 99.48,
+      "risk_adjusted_cost": 53.124
+    },
+    {
+      "price_shock": 0.25,
+      "cost_weight": 0.2,
+      "winner": "Demo C",
+      "score": 97.935,
+      "risk_adjusted_cost": 63.3
+    },
+    {
+      "price_shock": 0.25,
+      "cost_weight": 0.5,
+      "winner": "Demo A",
+      "score": 98.7,
+      "risk_adjusted_cost": 59.55
+    },
+    {
+      "price_shock": 0.25,
+      "cost_weight": 0.8,
+      "winner": "Demo A",
+      "score": 99.48,
+      "risk_adjusted_cost": 59.55
+    }
+  ],
+  "assortment": [
+    {
+      "sku": "SKU-1",
+      "sell_price": 80,
+      "unit_cost": 45,
+      "fulfilment_cost": 4,
+      "units": 300,
+      "fixed_cost": 4000,
+      "synthetic": true,
+      "contribution_eur": 5300
+    },
+    {
+      "sku": "SKU-2",
+      "sell_price": 65,
+      "unit_cost": 50,
+      "fulfilment_cost": 4,
+      "units": 200,
+      "fixed_cost": 3000,
+      "synthetic": true,
+      "contribution_eur": -800
+    },
+    {
+      "sku": "SKU-3",
+      "sell_price": 120,
+      "unit_cost": 70,
+      "fulfilment_cost": 4,
+      "units": 100,
+      "fixed_cost": 2500,
+      "synthetic": true,
+      "contribution_eur": 2100
+    },
+    {
+      "sku": "SKU-4",
+      "sell_price": 50,
+      "unit_cost": 30,
+      "fulfilment_cost": 4,
+      "units": 500,
+      "fixed_cost": 6000,
+      "synthetic": true,
+      "contribution_eur": 2000
+    }
+  ],
+  "recommendation": "Offline rule-based decision draft (not LLM inference): shortlist Demo A with score 98.700/100 and risk-adjusted unit cost EUR 48.84. Source: quote Q1. Request clarification of defect and delivery assumptions; use the lowest comparable landed cost EUR 41.40 as a discussion reference, not a guaranteed negotiation target. Human approval required."
+}

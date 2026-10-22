@@ -1,0 +1,38 @@
+[
+  {
+    "sku": "SKU-1",
+    "sell_price": 80,
+    "unit_cost": 45,
+    "fulfilment_cost": 4,
+    "units": 300,
+    "fixed_cost": 4000,
+    "synthetic": true
+  },
+  {
+    "sku": "SKU-2",
+    "sell_price": 65,
+    "unit_cost": 50,
+    "fulfilment_cost": 4,
+    "units": 200,
+    "fixed_cost": 3000,
+    "synthetic": true
+  },
+  {
+    "sku": "SKU-3",
+    "sell_price": 120,
+    "unit_cost": 70,
+    "fulfilment_cost": 4,
+    "units": 100,
+    "fixed_cost": 2500,
+    "synthetic": true
+  },
+  {
+    "sku": "SKU-4",
+    "sell_price": 50,
+    "unit_cost": 30,
+    "fulfilment_cost": 4,
+    "units": 500,
+    "fixed_cost": 6000,
+    "synthetic": true
+  }
+]

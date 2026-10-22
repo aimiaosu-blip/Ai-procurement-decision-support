@@ -1,0 +1,41 @@
+[
+  {
+    "quote_id": "Q1",
+    "supplier": "Demo A",
+    "currency": "EUR",
+    "unit_price": 42,
+    "freight_per_unit": 3,
+    "duty_rate": 0.02,
+    "defect_rate": 0.01,
+    "late_rate": 0.05,
+    "failure_cost": 100,
+    "delay_cost": 40,
+    "synthetic": true
+  },
+  {
+    "quote_id": "Q2",
+    "supplier": "Demo B",
+    "currency": "EUR",
+    "unit_price": 35,
+    "freight_per_unit": 5,
+    "duty_rate": 0.04,
+    "defect_rate": 0.08,
+    "late_rate": 0.2,
+    "failure_cost": 100,
+    "delay_cost": 40,
+    "synthetic": true
+  },
+  {
+    "quote_id": "Q3",
+    "supplier": "Demo C",
+    "currency": "EUR",
+    "unit_price": 48,
+    "freight_per_unit": 2,
+    "duty_rate": 0,
+    "defect_rate": 0.005,
+    "late_rate": 0.02,
+    "failure_cost": 100,
+    "delay_cost": 40,
+    "synthetic": true
+  }
+]
